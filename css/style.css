@@ -184,3 +184,75 @@
     background-color: rgb(255, 210, 127);
     border: 2px dashed black;
 }
+
+/* footer top*/
+.ft-container{
+    height: 600px;
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-top{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.ft-flex{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-content-left{
+    flex-basis: 32%;
+    height: 500px;
+    background-color: rgb(255, 110, 110);
+    border: 2px dashed white;
+}
+
+.ft-content-prodotto{
+    flex-basis: 17%;
+    height: 500px;
+    background-color: rgb(177, 109, 255);
+    border: 2px dashed white;
+}
+
+/* footer bottom */
+.fb-container{
+    height: 200px;
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-bottom{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fb-flex{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb-content{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 146);
+    border: 2px dashed black;
+}
+
+.content-left{
+    flex-basis: 20%;
+    height: 50px;
+    background-color: rgb(118, 255, 171);
+    border: 2px dashed black;
+}
+.content-right{
+    flex-basis: 20%;
+    height: 50px;
+    background-color: rgb(118, 255, 171);
+    border: 2px dashed black;
+}
