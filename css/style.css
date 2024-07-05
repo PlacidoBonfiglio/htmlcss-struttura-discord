@@ -52,11 +52,6 @@
     margin: 0 auto;
 }
 
-.container-talk{
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .sh-flex{
     display: flex;
     height: 800px;
@@ -72,14 +67,18 @@
 }
 
 /* main */
-.talk,{
+.container-talk{
     height: 1000px;
+}
+
+.talk{
+    width: 1200px;
     margin: 0 auto;
 }
 
 .talk-flex{
     display: flex;
-    height: 1200px;
+    height: 1000px;
     justify-content: center;
     align-items: center;
 }
@@ -94,22 +93,24 @@
 .talk-right{
     flex-basis: 60%;
     height: 600px;
-    background-color: rgb(255, 167, 255);
+    background-color: pink;
     border: 2px dashed black;
 }
 
+/* voice */
 .container-voice{
-    width: 1200px;
+    height: 1000px;
     background-color: lightgrey;
 }
 
 .voice{
-    
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .voice-flex{
     display: flex;
-    height: 1200px;
+    height: 1000px;
     justify-content: center;
     align-items: center;
 }
@@ -124,31 +125,62 @@
 .voice-right {
     flex-basis: 40%;
     height: 600px;
-    background-color: rgb(255, 167, 255);
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+/* channels */
+.container-channels{
+    height: 1000px;
+}
+
+.channels{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.channels-flex{
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.channels-left{
+    flex-basis: 40%;
+    height: 600px;
+    background-color: rgb(255, 210, 127);
+    border: 2px dashed black;
+}
+
+.channels-right{
+    flex-basis: 60%;
+    height: 600px;
+    background-color: pink;
     border: 2px dashed black;
 }
 
 /* techno */
-.technology{
-    height: 1000px;
+.techno-container{
+    height: 1200px;
     background-color: lightgrey;
 }
 
-.techno-container{
+.technology{
     width: 1200px;
     margin: 0 auto;
 }
 
 .techno-flex{
     display: flex;
-    height: 800px;
+    height: 1200px;
     justify-content: center;
     align-items: center;
 }
 
 .techno-content{
-    flex-basis: 80%;
-    height: 500px;
+    flex-basis: 100%;
+    height: 800px;
     background-color: rgb(255, 210, 127);
     border: 2px dashed black;
 }
