@@ -47,7 +47,12 @@
     background-color: rgb(0, 110, 255);
 }
 
-.containers{
+.sh-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-talk{
     width: 1200px;
     margin: 0 auto;
 }
@@ -63,5 +68,87 @@
     flex-basis: 80%;
     height: 500px;
     background-color: rgb(128, 120, 238);
-    border: 2px dashed white,
+    border: 2px dashed white;
+}
+
+/* main */
+.talk,{
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.talk-flex{
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk-left{
+    flex-basis: 40%;
+    height: 600px;
+    background-color: rgb(255, 210, 127);
+    border: 2px dashed black;
+}
+
+.talk-right{
+    flex-basis: 60%;
+    height: 600px;
+    background-color: rgb(255, 167, 255);
+    border: 2px dashed black;
+}
+
+.container-voice{
+    width: 1200px;
+    background-color: lightgrey;
+}
+
+.voice{
+    
+}
+
+.voice-flex{
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-left{
+    flex-basis: 60%;
+    height: 600px;
+    background-color: rgb(255, 210, 127);
+    border: 2px dashed black;
+}
+
+.voice-right {
+    flex-basis: 40%;
+    height: 600px;
+    background-color: rgb(255, 167, 255);
+    border: 2px dashed black;
+}
+
+/* techno */
+.technology{
+    height: 1000px;
+    background-color: lightgrey;
+}
+
+.techno-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.techno-flex{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.techno-content{
+    flex-basis: 80%;
+    height: 500px;
+    background-color: rgb(255, 210, 127);
+    border: 2px dashed black;
 }
