@@ -93,6 +93,35 @@
     background-color: lightgrey;
 }
 
+/*  last technology */
+.last-technology{
+    height: 1400px;
+    background-color: lightgrey;
+    padding: 200px;
+}
+
+.big-square{
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #dca7ff;
+    border: 2px dashed white;
+}
+
+.download-flex{
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.download{
+    flex-basis: 200px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
 /* footer top*/
 .ft-container{
     height: 600px;
@@ -122,34 +151,6 @@
     border: 2px dashed white;
 }
 
-/*  last technology */
-.last-technology{
-    height: 1400px;
-    background-color: lightgrey;
-    padding: 200px;
-}
-
-.big-square{
-    height: 800px;
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #dca7ff;
-    border: 2px dashed white;
-}
-
-.download-flex{
-    display: flex;
-    height: 1000px;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.download{
-    flex-basis: 200px;
-    height: 50px;
-    background-color: yellow;
-    border: 2px dashed black;
-}
 
 /* footer bottom */
 .fb-container{
