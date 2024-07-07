@@ -1,188 +1,96 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* header */
-
-.main-header{
-    height: 80px;
+/* first header */
+.first-header{
+    height: 100px;
     background-color: lightblue;
+    padding: 25px;
 }
 
-.mh-container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 15px 0;
-}
-
-.header-flex{
+.fh-flex{
     display: flex;
-    flex-basis: 100%;
-    height: 50px;
-    background-color: rgb(255, 255, 146);
-}
-
-.top-left{
-    flex-basis: 15%;
-    height: 50px;
-    border: 2px dashed black;
-}
-
-.top-center{
-    flex-basis: 70%;
-    height: 50px;
-    border: 2px dashed black;
-}
-
-.top-right{
-    flex-basis: 15%;
-    height: 50px;
-    border: 2px dashed black;
-}
-
-.secondary-header{
-    height: 800px;
-    background-color: rgb(0, 110, 255);
-}
-
-.sh-container{
     width: 1200px;
+    height: 50px;
+    background-color: yellow;
     margin: 0 auto;
 }
 
-.sh-flex{
-    display: flex;
-    height: 800px;
-    justify-content: center;
-    align-items: center;
+.fh{
+    height: 50px;
+    border: 2px dashed black;
 }
 
-.sh-content{
-    flex-basis: 80%;
-    height: 500px;
-    background-color: rgb(128, 120, 238);
+.fh-left{
+    flex-grow: 1;
+}
+.fh-center{
+    flex-grow: 2;
+}
+
+.fh-right{
+    flex-grow: 1;
+}
+
+/* second header */
+.second-header{
+    height: 800px;
+    background-color: rgb(92, 130, 255);
+    padding: 100px;
+}
+
+.sh{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(183, 106, 255);
     border: 2px dashed white;
 }
 
 /* main */
-.container-talk{
-    height: 1000px;
-}
-
-.talk{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.talk-flex{
-    display: flex;
-    height: 1000px;
-    justify-content: center;
-    align-items: center;
-}
-
-.talk-left{
-    flex-basis: 40%;
-    height: 600px;
-    background-color: rgb(255, 210, 127);
-    border: 2px dashed black;
-}
-
-.talk-right{
-    flex-basis: 60%;
-    height: 600px;
-    background-color: pink;
-    border: 2px dashed black;
-}
-
-/* voice */
-.container-voice{
-    height: 1000px;
-    background-color: lightgrey;
-}
-
-.voice{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.voice-flex{
-    display: flex;
-    height: 1000px;
-    justify-content: center;
-    align-items: center;
-}
-
-.voice-left{
-    flex-basis: 60%;
-    height: 600px;
-    background-color: rgb(255, 210, 127);
-    border: 2px dashed black;
-}
-
-.voice-right {
-    flex-basis: 40%;
-    height: 600px;
-    background-color: pink;
-    border: 2px dashed black;
-}
-
-/* channels */
-.container-channels{
-    height: 1000px;
-}
-
-.channels{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.channels-flex{
-    display: flex;
-    height: 1000px;
-    justify-content: center;
-    align-items: center;
-}
-
-.channels-left{
-    flex-basis: 40%;
-    height: 600px;
-    background-color: rgb(255, 210, 127);
-    border: 2px dashed black;
-}
-
-.channels-right{
-    flex-basis: 60%;
-    height: 600px;
-    background-color: pink;
-    border: 2px dashed black;
-}
-
-/* techno */
-.techno-container{
-    height: 1200px;
-    background-color: lightgrey;
-}
-
 .technology{
-    width: 1200px;
-    margin: 0 auto;
+    height: 1000px;
 }
 
-.techno-flex{
+.tech-flex{
     display: flex;
-    height: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    height: 1000px;
     justify-content: center;
     align-items: center;
 }
 
-.techno-content{
-    flex-basis: 100%;
-    height: 800px;
-    background-color: rgb(255, 210, 127);
+.tech-left{
+    flex-basis: 30%;
+    height: 500px;
+    background-color: orange;
     border: 2px dashed black;
+}
+
+.tech-right{
+    flex-basis: 70%;
+    height: 500px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.tech-flex-reverse{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.grey-technology{
+    height: 1000px;
+    background-color: lightgrey;
 }
 
 /* footer top*/
@@ -191,13 +99,10 @@
     background-color: rgb(49, 49, 49);
 }
 
-.footer-top{
-    width:1200px;
-    margin: 0 auto;
-}
-
 .ft-flex{
     display: flex;
+    width:1200px;
+    margin: 0 auto;
     height: 600px;
     justify-content: center;
     align-items: center;
@@ -217,19 +122,45 @@
     border: 2px dashed white;
 }
 
+/*  last technology */
+.last-technology{
+    height: 1400px;
+    background-color: lightgrey;
+    padding: 200px;
+}
+
+.big-square{
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #dca7ff;
+    border: 2px dashed white;
+}
+
+.download-flex{
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.download{
+    flex-basis: 200px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
 /* footer bottom */
 .fb-container{
     height: 200px;
     background-color: rgb(49, 49, 49);
 }
 
-.footer-bottom{
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .fb-flex{
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
     height: 200px;
     justify-content: center;
     align-items: center;
