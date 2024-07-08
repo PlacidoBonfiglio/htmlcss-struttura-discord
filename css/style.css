@@ -138,14 +138,14 @@
 }
 
 .ft-content-left{
-    flex-basis: 32%;
+    flex-basis: 30%;
     height: 500px;
     background-color: rgb(255, 110, 110);
     border: 2px dashed white;
 }
 
 .ft-content-prodotto{
-    flex-basis: 17%;
+    flex-basis: calc(70% / 4);
     height: 500px;
     background-color: rgb(177, 109, 255);
     border: 2px dashed white;
